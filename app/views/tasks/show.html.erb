@@ -1,0 +1,10 @@
+<h1>Task Item</h1>
+<hr>
+<h2>
+	<input type="checkbox" ><%= @task.title %>
+</h2>
+<h4>
+	<%= @task.details %>
+</h4>
+
+<p><%= link_to "Back to list", tasks_path() %></p>
